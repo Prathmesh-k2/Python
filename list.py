@@ -1,0 +1,20 @@
+student=[ "p",18,"dkte",]
+print(len(student))
+print(student)
+print(type(student))
+student[0]="a"
+print(student)
+mark=[11,12,14,17,15,13,16]
+print(mark[:])
+mark.append(18)
+print(mark)
+print(mark.sort())
+print(mark)
+print(mark.sort(reverse=True))
+print(mark)
+print(mark.reverse())
+print(mark)
+mark.insert(3,5)
+print(mark)
+mark.remove(5)
+print(mark)
